@@ -1,0 +1,580 @@
+/* ==========================================================================
+   CUSTOM CARD STYLES
+   ========================================================================== */
+
+/* Quote accent block */
+.quote-accent {
+  padding: 1.5em 2em;
+  margin: 2em 0;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  border-left: 4px solid #7a8288;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-style: italic;
+  color: #333;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Gradient text effects */
+.primary-gradient-text {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+}
+
+.accent-text {
+  color: #667eea;
+  font-weight: 600;
+}
+
+.link-accent {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    color: #764ba2;
+    text-decoration: underline;
+  }
+}
+
+/* Highlight blocks container - COMPACT */
+.highlight-blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2em;
+  margin: 2em 0;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+}
+
+/* Floating card effect - COMPACT */
+.floating-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 1.2em 1.5em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.07), 
+              0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease;
+  }
+  
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15), 
+                0 6px 12px rgba(0, 0, 0, 0.1);
+    
+    &::before {
+      transform: scaleX(1);
+    }
+  }
+  
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.25em;
+    color: #2c3e50;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+    
+    i {
+      color: #667eea;
+      font-size: 1.15em;
+    }
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+    li {
+      padding: 0.25em 0;
+      padding-left: 1.5em;
+      position: relative;
+      line-height: 1.4;
+      color: #555;
+      margin-bottom: 0.15em;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+      
+      &::before {
+        content: '▸';
+        position: absolute;
+        left: 0;
+        color: #667eea;
+        font-weight: bold;
+      }
+    }
+  }
+  
+  a {
+    color: #667eea;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    
+    &:hover {
+      color: #764ba2;
+      text-decoration: underline;
+    }
+  }
+}
+
+/* Highlight block without floating-card class (for compatibility) */
+.highlight-block:not(.floating-card) {
+  @extend .floating-card;
+}
+
+/* Alternative card styles */
+.card-minimal {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1.5em;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-left: 3px solid #667eea;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transform: translateX(4px);
+  }
+}
+
+.card-bordered {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 2em;
+  border: 2px solid #e0e0e0;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    border-color: #667eea;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+  }
+}
+
+.card-gradient {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 2em;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+  
+  h3 {
+    color: #ffffff;
+    
+    i {
+      color: #ffffff;
+    }
+  }
+  
+  ul li {
+    color: rgba(255, 255, 255, 0.95);
+    
+    &::before {
+      color: #ffffff;
+    }
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+    
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  
+  .accent-text,
+  .primary-gradient-text {
+    color: #ffffff;
+    background: none;
+    -webkit-text-fill-color: #ffffff;
+    font-weight: 700;
+  }
+}
+
+/* Year section collapsible styles */
+.year-section {
+  margin: 0.75em 0;
+  border: 1px solid #d9e8f5;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.year-header {
+  background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
+  color: #1565c0;
+  padding: 0.6em 1.2em;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.15em;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  user-select: none;
+  border-bottom: 1px solid #d9e8f5;
+  
+  &:hover {
+    background: linear-gradient(135deg, #d1e7f8 0%, #a8d5f7 100%);
+  }
+  
+  .year-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+  }
+  
+  .year-count {
+    display: none;
+  }
+  
+  .toggle-icon {
+    transition: transform 0.3s ease;
+    font-size: 0.75em;
+    color: #1976d2;
+  }
+  
+  &.collapsed .toggle-icon {
+    transform: rotate(-90deg);
+  }
+}
+
+.year-content {
+  padding: 0.75em 1.2em 0.85em;
+  
+  &.collapsed {
+    display: none;
+  }
+}
+
+/* Research tag styles - Academic color scheme */
+.research-tag {
+  display: inline-block;
+  padding: 0.2em 0.5em;
+  margin-left: 0.3em;
+  font-size: 0.75em;
+  font-weight: 700;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border: 1px solid;
+  line-height: 1;
+}
+
+.tag-rs {
+  background: #1e3a8a;
+  color: #ffffff;
+  border-color: #1e40af;
+  box-shadow: 0 1px 3px rgba(30, 58, 138, 0.3);
+}
+
+.tag-edm {
+  background: #7c2d12;
+  color: #ffffff;
+  border-color: #92400e;
+  box-shadow: 0 1px 3px rgba(124, 45, 18, 0.3);
+}
+
+.tag-let {
+  background: #064e3b;
+  color: #ffffff;
+  border-color: #047857;
+  box-shadow: 0 1px 3px rgba(6, 78, 59, 0.3);
+}
+
+.tag-dm {
+  background: #581c87;
+  color: #ffffff;
+  border-color: #6b21a8;
+  box-shadow: 0 1px 3px rgba(88, 28, 135, 0.3);
+}
+
+.tag-agent {
+  background: #be123c;
+  color: #ffffff;
+  border-color: #e11d48;
+  box-shadow: 0 1px 3px rgba(190, 18, 60, 0.3);
+}
+
+.tag-other {
+  background: #374151;
+  color: #ffffff;
+  border-color: #4b5563;
+  box-shadow: 0 1px 3px rgba(55, 65, 81, 0.3);
+}
+
+/* Publication item enhanced styles */
+.pub-item {
+  margin-bottom: 0.65em;
+  padding-bottom: 0.65em;
+  border-bottom: 1px solid #f8f8f8;
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  .pub-title {
+    font-size: 1em;
+    font-weight: 600;
+    color: #1a202c;
+    line-height: 1.35;
+    margin-bottom: 0.3em;
+    display: block;
+    letter-spacing: -0.01em;
+  }
+  
+  .pub-meta {
+    font-size: 0.92em;
+    color: #4a5568;
+    line-height: 1.5;
+    
+    .pub-authors {
+      margin-bottom: 0.2em;
+      font-weight: 400;
+      color: #2d3748;
+    }
+    
+    .pub-venue {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 0.4em;
+      
+      strong {
+        font-weight: 600;
+        color: #1a202c;
+      }
+    }
+  }
+}
+
+/* News section - COMPACT (保留每条一行) */
+.page__content {
+  // News section specific styling
+  #-news + ul {
+    margin: 0.5em 0 1.2em 0;
+    
+    li {
+      padding: 0.25em 0;
+      margin-bottom: 0.3em;
+      line-height: 1.45;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+/* Academic section styles for Education, Services, Teaching, etc. - COMPACT */
+.page__content {
+  h1 {
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #e5e7eb;
+    font-size: 1.75em;
+    font-weight: 600;
+    color: #1a202c;
+    letter-spacing: -0.02em;
+    
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  
+  h2 {
+    margin-top: 1.2em;
+    margin-bottom: 0.5em;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #2d3748;
+    letter-spacing: -0.01em;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.6em 0;
+    
+    > li {
+      position: relative;
+      padding: 0.3em 0 0.3em 1.8em;
+      line-height: 1.5;
+      color: #4a5568;
+      margin-bottom: 0.4em;
+      
+      &::before {
+        content: '▪';
+        position: absolute;
+        left: 0.4em;
+        color: #667eea;
+        font-size: 1.1em;
+        font-weight: bold;
+      }
+      
+      ul {
+        margin-top: 0.3em;
+        margin-bottom: 0.3em;
+        
+        li {
+          padding: 0.15em 0 0.15em 1.3em;
+          font-size: 0.93em;
+          color: #5a6c7d;
+          margin-bottom: 0.2em;
+          
+          &::before {
+            content: '◦';
+            left: 0;
+            font-size: 1em;
+            color: #94a3b8;
+          }
+        }
+      }
+      
+      strong {
+        font-weight: 600;
+        color: #1a202c;
+      }
+      
+      a {
+        color: #667eea;
+        text-decoration: none;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          color: #764ba2;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+  p {
+    line-height: 1.6;
+    color: #4a5568;
+    margin: 0.5em 0;
+  }
+  
+  hr {
+    margin: 1.8em 0;
+    border: none;
+    border-top: 1px solid #e5e7eb;
+  }
+}
+
+/* Responsive adjustments - COMPACT */
+@media (max-width: 768px) {
+  .floating-card {
+    padding: 1em 1.2em;
+    
+    h3 {
+      font-size: 1.15em;
+      margin-bottom: 0.4em;
+    }
+    
+    ul li {
+      padding: 0.2em 0;
+      line-height: 1.35;
+    }
+  }
+  
+  .quote-accent {
+    padding: 0.8em 1.2em;
+    font-size: 1em;
+  }
+  
+  .year-section {
+    margin: 0.5em 0;
+  }
+  
+  .year-header {
+    padding: 0.4em 0.8em;
+    font-size: 1.05em;
+  }
+  
+  .year-content {
+    padding: 0.5em 0.8em 0.6em;
+  }
+  
+  .pub-item {
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+  }
+  
+  .research-tag {
+    font-size: 0.7em;
+    padding: 0.2em 0.45em;
+    margin-left: 0.25em;
+  }
+  
+  .page__content {
+    // News section mobile
+    #-news + ul {
+      margin: 0.4em 0 1em 0;
+      
+      li {
+        padding: 0.2em 0;
+        margin-bottom: 0.25em;
+        line-height: 1.4;
+      }
+    }
+    
+    h1 {
+      font-size: 1.45em;
+      margin-top: 1.2em;
+      margin-bottom: 0.5em;
+    }
+    
+    h2 {
+      font-size: 1.2em;
+      margin-top: 1em;
+      margin-bottom: 0.4em;
+    }
+    
+    ul {
+      margin: 0.4em 0;
+      
+      > li {
+        padding: 0.25em 0 0.25em 1.4em;
+        font-size: 0.93em;
+        margin-bottom: 0.3em;
+      }
+    }
+    
+    p {
+      line-height: 1.5;
+      margin: 0.4em 0;
+    }
+  }
+}
