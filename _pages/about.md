@@ -37,11 +37,11 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
   </div>
   
   <div class="highlight-block floating-card">
-    <h3><i class="fas fa-pen-fancy"></i> Educational Data Mining & Generation</h3>
+    <h3><i class="fas fa-pen-fancy"></i> Educational Data Mining & Simulaiton</h3>
     <ul>
-      <li>Personalized Learning Analysis </li>
-      <li>Learning Path Generation </li>
-      <li>Educational Recommendation</li>
+      <li>Learner Behavior Modeling</li>
+      <li>Learning Path Recommendation </li>
+      <li>Agentic Social Simulaiton</li>
     </ul>
   </div>
   
@@ -55,10 +55,12 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
   </div>
 </div>
 
-# 🔥 News
+# 🔥 New
+- *2026.04*: &nbsp;📝 One paper accepted to **IJCAI 2026**!
 - *2026.01*: &nbsp;📝 One paper accepted to **ACM TKDD 2026**!
 - *2025.11*: &nbsp;📝 One paper accepted to **AAAI 2026**!
 - *2025.11*: &nbsp;📝 One paper accepted to **ACM WSDM 2026**!
+- *2025.08*: &nbsp;🏆 One paper on Multi-Agent RL received the <span style="color:#d97706;">Best Paper Award </span> at **CCF TPCI**!
 - *2025.08*: &nbsp;📝 One paper accepted to **ACM CIKM 2025**!
 - *2025.06*: &nbsp;📝 One paper accepted to **Neurocomputing 2025**!
 - *2025.03*: &nbsp;📝 One paper accepted to **IEEE TMC 2025**!
@@ -69,9 +71,9 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
 
 # 📝 Publications 
 <div style="margin-bottom: 1em; padding: 0.5em 1em; background: #f0f7ff; border-left: 4px solid #667eea; border-radius: 4px;">
-  <i class="fas fa-graduation-cap"></i> <strong>Total Publications: 27</strong> &nbsp;|&nbsp; 
-  <i class="fas fa-quote-right"></i> <strong>Citations: 640+</strong> &nbsp;|&nbsp; 
-  <i class="fas fa-chart-line"></i> <strong>h-index: 13</strong>
+  <i class="fas fa-graduation-cap"></i> <strong>Total Publications: 28</strong> &nbsp;|&nbsp; 
+  <i class="fas fa-quote-right"></i> <strong>Citations: 770+</strong> &nbsp;|&nbsp; 
+  <i class="fas fa-chart-line"></i> <strong>h-index: 14</strong>
   <br>
 </div>
 
@@ -85,6 +87,18 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
   <span class="toggle-icon">▼</span>
 </div>
 <div class="year-content">
+
+<div class="pub-item">
+  <span class="pub-title">LLM-Enhanced Knowledge and Learning Path Understanding for Graph-based Educational Recommendation</span>
+  <div class="pub-meta">
+    <div class="pub-authors">Qingqing Liang, Shuyan Zheng, Peiwei Xia, <strong>Chunyang Wang</strong>, Xuesong Lu, Aoying Zhou</div>
+    <div class="pub-venue">
+      <span><strong>IJCAI</strong>, 2026</span>
+      <a href="https://www.sciencedirect.com/">[Paper]</a>
+      <span class="research-tag tag-edm">EDM</span>
+    </div>
+  </div>
+</div>
 
 <div class="pub-item">
   <span class="pub-title">MESA: Plugin Meta-Modulation for Transformer-based Cold-start Sequential Recommendation</span>
@@ -115,7 +129,7 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
   <div class="pub-meta">
     <div class="pub-authors">Qingqing Liang, <strong>Chunyang Wang</strong>, Peiwei Xia, Yanan Zeng, Xin Liu, Xuesong Lu, Aoying Zhou</div>
     <div class="pub-venue">
-      <span><strong>AAAI Conference on Artificial Intelligence (AAAI)</strong>, 2026</span>
+      <span><strong>AAAI</strong>, 2026</span>
       <a href="https://ieeexplore.ieee.org/">[Paper]</a>
       <span class="research-tag tag-edm">EDM</span>
     </div>
@@ -190,11 +204,24 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
 <div class="year-header">
   <div class="year-title">
     <span>📅 2024</span>
-    <span class="year-count">3 papers</span>
+    <span class="year-count">4 papers</span>
   </div>
   <span class="toggle-icon">▼</span>
 </div>
 <div class="year-content">
+<div class="pub-item">
+  <span class="pub-title">Multi-agent reinforcement learning for vehicular task offloading with multi-step trajectory prediction</span> 
+  <div class="pub-meta">
+    <div class="pub-authors">Xinyi Zhang, Yanmin Zhu, <strong>Chunyang Wang</strong>,, Jian Cao, Yirong Chen, Jie Wang</div>
+    <div class="pub-venue">
+      <span><strong>CCF Transactions on Pervasive Computing and Interaction (CCF TPCI)</strong>, 2024</span>
+      <a href="https://ieeexplore.ieee.org/">[Paper]</a>
+      <span class="research-tag tag-agent">Agent</span>
+      <span style="color:#d97706;">🏆 Best Paper Award</span>
+    </div>
+  </div>
+</div>
+
 
 <div class="pub-item">
   <span class="pub-title">Graph Diffusion-based Representation Learning for Sequential Recommendation</span>
@@ -213,7 +240,7 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
   <div class="pub-meta">
     <div class="pub-authors">Ke Wang, Yanmin Zhu, Tianzi Zang, <strong>Chunyang Wang</strong>, Mengyuan Jing</div>
     <div class="pub-venue">
-      <span><strong>AAAI Conference on Artificial Intelligence (AAAI)</strong>, 2024</span>
+      <span><strong>AAAI</strong>, 2024</span>
       <a href="https://ojs.aaai.org/index.php/AAAI/">[Paper]</a>
       <span class="research-tag tag-rs">RS</span>
     </div>
