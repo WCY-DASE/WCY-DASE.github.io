@@ -55,19 +55,21 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
   </div>
 </div>
 
-# 🔥 New
-- *2026.04*: &nbsp;📝 One paper accepted to **IJCAI 2026**!
-- *2026.01*: &nbsp;📝 One paper accepted to **ACM TKDD 2026**!
-- *2025.11*: &nbsp;📝 One paper accepted to **AAAI 2026**!
-- *2025.11*: &nbsp;📝 One paper accepted to **ACM WSDM 2026**!
-- *2025.08*: &nbsp;🏆 One paper on Multi-Agent RL received the <span style="color:#d97706;">Best Paper Award </span> at **CCF TPCI**!
-- *2025.08*: &nbsp;📝 One paper accepted to **ACM CIKM 2025**!
-- *2025.06*: &nbsp;📝 One paper accepted to **Neurocomputing 2025**!
-- *2025.03*: &nbsp;📝 One paper accepted to **IEEE TMC 2025**!
-- *2025.01*: &nbsp;📝 One paper accepted to **ACM TOIS 2025**!
-- *2024.11*: &nbsp;📝 One paper accepted to **IEEE TKDE 2024**!
-- *2024.07*: &nbsp;🎉 Started position as Assistant Professor (Chenhui Scholar) at DaSE ECNU!
-- *2024.06*: &nbsp;🎓 Successfully defended Ph.D. thesis at SJTU!
+# 🔥 News
+<div class="news-list">
+  <div class="news-item"><time>2026.04</time><span>📝 One paper accepted to <strong>IJCAI 2026</strong>!</span></div>
+  <div class="news-item"><time>2026.01</time><span>📝 One paper accepted to <strong>ACM TKDD 2026</strong>!</span></div>
+  <div class="news-item"><time>2025.11</time><span>📝 One paper accepted to <strong>AAAI 2026</strong>!</span></div>
+  <div class="news-item"><time>2025.11</time><span>📝 One paper accepted to <strong>ACM WSDM 2026</strong>!</span></div>
+  <div class="news-item"><time>2025.08</time><span>🏆 One paper on Multi-Agent RL received the <span style="color:#d97706;">Best Paper Award</span> at <strong>CCF TPCI</strong>!</span></div>
+  <div class="news-item"><time>2025.08</time><span>📝 One paper accepted to <strong>ACM CIKM 2025</strong>!</span></div>
+  <div class="news-item"><time>2025.06</time><span>📝 One paper accepted to <strong>Neurocomputing 2025</strong>!</span></div>
+  <div class="news-item"><time>2025.03</time><span>📝 One paper accepted to <strong>IEEE TMC 2025</strong>!</span></div>
+  <div class="news-item"><time>2025.01</time><span>📝 One paper accepted to <strong>ACM TOIS 2025</strong>!</span></div>
+  <div class="news-item"><time>2024.11</time><span>📝 One paper accepted to <strong>IEEE TKDE 2024</strong>!</span></div>
+  <div class="news-item"><time>2024.07</time><span>🎉 Started position as Assistant Professor (Chenhui Scholar) at DaSE ECNU!</span></div>
+  <div class="news-item"><time>2024.06</time><span>🎓 Successfully defended Ph.D. thesis at SJTU!</span></div>
+</div>
 
 # 📝 Publications 
 <div style="margin-bottom: 1em; padding: 0.5em 1em; background: #f0f7ff; border-left: 4px solid #667eea; border-radius: 4px;">
@@ -485,7 +487,7 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
     <div class="pub-venue">
       <span><strong>ACM WSDM</strong>, 2021</span>
       <a href="https://dl.acm.org/doi/">[Paper]</a>
-      <span class="research-tag tag-other">Other</span>
+      <span class="research-tag tag-dm">DM</span>
     </div>
   </div>
 </div>
@@ -493,38 +495,26 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
 </div>
 </div>
 
-<!-- For a complete list of publications, please visit my [Google Scholar Profile](https://scholar.google.com/citations?user=GPSX8B0AAAAJ). -->
-
-<!-- # 🎖 Honors and Awards
-- *2024.09* &nbsp;🏆 **Chenhui Scholar** (Distinguished Young Faculty), East China Normal University
-- *2024.06* &nbsp;🎓 **Outstanding Ph.D. Graduate**, Shanghai Jiao Tong University
-- *2023.12* &nbsp;🥇 **National Scholarship for Graduate Students**, Ministry of Education of China
-- *2023.10* &nbsp;🏅 **Outstanding Reviewer Award**, ACM CIKM 2023
-- *2022.12* &nbsp;🌟 **Outstanding Student Leader**, Shanghai Jiao Tong University
-- *2022.06* &nbsp;💰 **Excellent Academic Scholarship** (First Prize), Shanghai Jiao Tong University
-- *2021.12* &nbsp;🎯 **Huawei Scholarship**, Huawei Technologies Co., Ltd.
-- *2021.10* &nbsp;🏆 **ACM Shanghai SIGIR Chapter Scholarship**, ACM Shanghai
-- *2019.06* &nbsp;🎓 **Outstanding Graduate**, Harbin Institute of Technology  -->
-
 # 📖 Education
-- *2019.09 - 2024.06*, **Ph.D. in Computer Science**
+- *2019.09 - 2024.06* **Ph.D. in Computer Science**
   - Shanghai Jiao Tong University (SJTU), Shanghai, China
   - Supervisor: Prof. [Yanmin Zhu](https://www.cs.sjtu.edu.cn/~yzhu/)
   
-- *2022.09 - 2023.08*, **Visiting Ph.D. Student**
+- *2022.09 - 2023.08* **Visiting Ph.D. Student**
   - Nanyang Technological University (NTU), Singapore
   - Supervisor: Prof. [Aixin Sun](https://personal.ntu.edu.sg/axsun/index.html)
   
-- *2015.09 - 2019.06*, **B.Eng. in Computer Science**
+- *2015.09 - 2019.06* **B.Eng. in Computer Science**
   - Harbin Institute of Technology (HIT), Harbin, China
 
 # 💬 Academic Services
 
 ## Program Committee Member / Reviewer
-- **ACM SIGIR** (2022, 2023, 2024, 2025)
-- **ACM KDD** (2023, 2024, 2025)
-- **ACM CIKM** (2023, 2024, 2025)
+- **ACM SIGIR** (2022, 2023, 2024, 2025, 2026)
+- **ACM KDD** (2023, 2024, 2025, 2026)
+- **ACM CIKM** (2023, 2024, 2025, 2026)
 - **AAAI** (2023, 2024, 2025)
+- **ACM ACMMM** (2026)
 
 ## Journal Reviewer
 - **IEEE Transactions on Knowledge and Data Engineering (TKDE)**
@@ -539,15 +529,15 @@ My research interests focuses on Congitive Computing on <span class="primary-gra
 ## Undergraduate Courses
 - **Computer Vision and Multimedia Information Processing** (Fall 2024, Fall 2025)
 - **Computer Networks** (Fall 2024, Fall 2025)
-- **Social Computing** (Spring 2025)
+- **Social Computing** (Spring 2025, Spring 2026)
 
 ## Graduate Courses
 - **Computer Vision and Multimedia Information Processing** (Fall 2024, Fall 2025)
-- **Computational Pedagogy** (Spring 2025)
+- **Computational Pedagogy** (Spring 2025, Spring 2026)
 
 # 🎤 Invited Talks
-- *2025.10*, **Shuishan Chinese: AI for Chinese Language Teaching and Learning**, ICTC 2025, New York, USA
-- *2025.08*, **AI for Chinese Language Teaching and Learning**, The 12th Summer School of DaSE, ECNU, Shanghai
+- *2025.10* **Shuishan Chinese: AI for Chinese Language Teaching and Learning**, ICTC 2025, New York, USA
+- *2025.08* **AI for Chinese Language Teaching and Learning**, The 12th Summer School of DaSE, ECNU, Shanghai
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
